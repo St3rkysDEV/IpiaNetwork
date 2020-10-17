@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Recrutement × IpiaNetwork</title>
+        <link href="style/bootstrap.css" rel="stylesheet" />
+        <link href="style/main.css" rel="stylesheet" />
+        <link href="style/font-awesome.css" rel="stylesheet" />
+        <link href="style/font-awesome.min.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="description" content="Description of website" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="row block-bg block-single">
+                <div class="col-md-12 block">
+                    <h1>Postuler</h1>
+                    <hr/>
+                    <p>Vous pouvez être recrutez pour IpiaNetwork.net ici!</p>
+                    <form method="post">
+                        <label class="apply-label" for="type">Que voulez-vous que vous soyez?</label>
+                        <select name="type" class="form-control" required>
+                            <option value="moderator">Moderateur</option>
+                            <option value="supporter">Partenaire</option>
+                            <option value="builder">Buildeur</option>
+                            <!-- MEHR? -->
+                        </select><br />
+                        <label class="apply-label" for="name">Quel est votre nom?</label>
+                        <input type="text" class="form-control" name="name" placeholder="Votre nom" required><br />
+                        
+                        <label class="apply-label" for="alter">Quel âge avez-vous?</label>
+                        <input type="number" class="form-control" name="alter" placeholder="Quel âge avez-vous?" value="14" min="14" required><br />
+                        
+                        <label class="apply-label" for="description">qui êtes vous?</label>
+                        <textarea class="form-control" name="description" placeholder="Qui suis-je?"required></textarea><br />
+                        
+                        
+                        <label class="apply-label" for="references">Quelles sont vos expériences / références?</label>
+                        <textarea class="form-control" name="references" placeholder="Qu'ai-je fait jusqu'ici?"required></textarea><br />
+                        
+                        <label class="apply-label" for="references">Pourquoi IpiaNetwork?</label>
+                        <textarea class="form-control" name="references" placeholder="Pourquoi avoir choisi IpiaNetwork?"required></textarea><br />
+                        
+                        <label class="apply-label" for="contact">Comment pouvons-nous vous contacter (Discord / Teamspeak / ...)</label>
+                        <input type="text" class="form-control" name="contact" placeholder="Options de contact" required><br />
+                        
+                        <label class="apply-label" for="email">Votre adresse email</label>
+                        <input type="email" class="form-control" name="email" placeholder="Votre email" required><br />
+                        
+                        <input type="submit" class="btn btn-primary" value="Recrutement">
+                    </form>
+                </div>
+            </div>
+        </div> 
+            
+    </body>
+</html>
